@@ -1,0 +1,72 @@
+;Format of textures:
+;TextureName	Width	Height
+;*	PatchName	Xoffset	Yoffset
+BFALL1      		64	128
+*	BFALL1      	0	0
+BFALL2      		64	128
+*	BFALL2      	0	0
+BFALL3      		64	128
+*	BFALL3      	0	0
+BFALL4      		64	128
+*	BFALL4      	0	0
+BIGBRIK2    		64	128
+*	RW23_4      	0	0
+BIGBRIK3    		64	128
+*	RW38_4      	0	0
+CEMENT9     		64	128
+*	RW28_1      	0	0
+CRATE3      		64	128
+*	GCRATEL1    	0	0
+*	GCRATER1    	32	0
+*	BCRATEL1    	0	64
+*	BCRATER1    	32	64
+METAL2      		64	128
+*	RW33_1      	0	0
+MIDBARS3    		64	72
+*	RW45_1      	0	0
+MIDSPACE    		64	128
+*	RW47_1      	0	0
+PIPEWAL1    		64	128
+*	RW28_2      	0	0
+PIPES       		64	128
+*	RW28_4      	0	0
+ROCK4       		128	128
+*	RW35_1      	0	0
+ROCK5       		128	128
+*	RW35_2      	0	0
+SFALL1      		64	128
+*	SFALL1      	0	0
+SFALL2      		64	128
+*	SFALL2      	0	0
+SFALL3      		64	128
+*	SFALL3      	0	0
+SFALL4      		64	128
+*	SFALL4      	0	0
+SILVER1     		64	128
+*	RW32_1      	0	0
+SPACEW2     		64	128
+*	RW46_2      	0	0
+SPACEW4     		64	128
+*	RW46_4      	0	0
+TANROCK4    		64	128
+*	RW12_4      	0	0
+TANROCK5    		64	128
+*	RW14_1      	0	0
+TEKBRON1    		128	128
+*	RW36_1      	0	0
+*	RW36_3      	64	0
+TEKBRON2    		64	128
+*	RW39_2      	0	0
+WFALL1      		64	128
+*	WFALL1      	0	0
+WFALL2      		64	128
+*	WFALL2      	0	0
+WFALL3      		64	128
+*	WFALL3      	0	0
+WFALL4      		64	128
+*	WFALL4      	0	0
+ZIMMER3     		64	128
+*	RW20_3      	0	0
+ZIMMER4     		64	128
+*	RW20_4      	0	0
+;End
