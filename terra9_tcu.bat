@@ -36,6 +36,7 @@ ECHO Set path(s) to iwad(s)? (Leave blank for default.)
 ECHO Default path is .\input
 ECHO:
 SET /p SETDOOMDIR="[S]ingle, [M]ultiple: "
+ECHO:
 IF /i "%SETDOOMDIR%"=="S" GOTO SETDIRSAME
 IF /i "%SETDOOMDIR%"=="s" GOTO SETDIRSAME
 IF /i "%SETDOOMDIR%"=="M" GOTO SETDIRDIFF
@@ -79,6 +80,7 @@ copy input\data\terra9.deh %OUTPUTDIR% > NUL
 :CLEANUP
 rd /s /q temp
 SET /p RmInput="Delete Terra9 input directory (Y/N)? "
+ECHO:
 IF /i "%RmInput%"=="Y" GOTO DESTROY
 IF /i "%RmInput%"=="y" GOTO DESTROY
 GOTO EXIT_SUCCESS
@@ -108,7 +110,7 @@ ECHO *                                      *
 ECHO *                                      *
 ECHO ****************************************
 ECHO:
-ECHO /o (dir)    -    specify output directory
+ECHO /o (dir)    -    specify output directory (.\output is default.)
 ECHO /h or /?    -    show this message
 EXIT /b
 
