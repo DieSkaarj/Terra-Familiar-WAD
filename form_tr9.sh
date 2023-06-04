@@ -1,4 +1,6 @@
 #!/bin/bash
+# Quick and dirty shell script to concatenate some textures from Doom2 into Terra9.wad
+# You will need to place both iwads in the input directory.
 mkdir output
 deutex -overwrite -dir ./output -doom2 ./input -flats -patches -extract ./input/doom2.wad
 deutex -overwrite -dir ./output -doom ./input -textures -extract ./input/doom.wad
